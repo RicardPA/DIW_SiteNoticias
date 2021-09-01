@@ -1,0 +1,339 @@
+/*Partes principais da página*/
+
+body {
+    background-color: honeydew;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    border: solid rgb(163, 154, 154) 1px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgb(221, 238, 221);
+    margin: 10px 10px 0px 10px;
+    padding: 10px;
+}
+
+#cabecalho {
+    border: solid black 1px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+/*Botoes de Fontes*/
+
+#Globo {
+    background-color: rgb(155, 6, 6);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#Globo2 {
+    font-size: small;
+    background-color: rgb(155, 6, 6);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#Google {
+    background-color: rgb(36, 105, 151);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#Google2 {
+    font-size: small;
+    background-color: rgb(36, 105, 151);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#info-money {
+    background-color: rgba(0, 150, 42, 0.959);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#info-money2 {
+    font-size: small;
+    background-color: rgba(0, 150, 42, 0.959);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#BBC {
+    background-color: rgb(155, 6, 6);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#BBC2 {
+    font-size: small;
+    background-color: rgb(155, 6, 6);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+
+/*Menu mobile*/
+
+#tf {
+    font-size: small;
+    font-weight: bold;
+}
+
+#tn {
+    font-size: small;
+    font-weight: bold;
+}
+
+#btnPesquisa2 {
+    object-position: center;
+}
+
+#menu {
+    color: black;
+    border-radius: 10px;
+    background-color: honeydew;
+}
+
+.dropdown-menu {
+    text-align: center;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+
+/*Barra de pesquisa*/
+
+.BP {
+    max-width: 147px;
+}
+
+
+/*Mensagem de erro para o usuario*/
+
+#mERRO {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: rgb(235, 48, 48);
+    color: black;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+
+/* Estilo das caixas de notícias*/
+
+.card {
+    color: black;
+    border: solid black 1px;
+    border-radius: 20px;
+    margin-left: 10px;
+    min-width: 300px;
+}
+
+.card-img-top {
+    color: black;
+    border: solid black 1px;
+    max-width: 360px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.creditos {
+    background-color: rgb(224, 222, 222);
+    color: black;
+    border: solid rgb(163, 154, 154) 1px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.box-noticia img {
+    float: left;
+    width: 180px;
+    border-radius: 10px;
+}
+
+
+/* Categorias */
+
+#asCategorias {
+    border: solid black 1px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 1px;
+    background-color: honeydew;
+    margin-left: -9px;
+}
+
+.C {
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.form-inline {
+    margin-top: 10px;
+}
+
+#TN {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: solid black 1px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#covid {
+    max-width: 40px;
+}
+
+
+/*BOTOES*/
+
+#PN {
+    background-color: rgba(255, 0, 0, 0.959);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#TC {
+    background-color: rgb(49, 49, 199);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#EC {
+    background-color: rgb(0, 126, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#PL {
+    background-color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#EP {
+    background-color: rgba(0, 0, 0, 0.959);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#CD {
+    background-color: rgba(0, 255, 42, 0.959);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#covid {
+    max-width: 40px;
+}
+
+
+/*BOTOES 2*/
+
+#PN2 {
+    font-size: small;
+    background-color: rgba(255, 0, 0, 0.959);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#TC2 {
+    font-size: small;
+    background-color: rgb(49, 49, 199);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#EC2 {
+    font-size: small;
+    background-color: rgb(0, 126, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#PL2 {
+    font-size: small;
+    background-color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#EP2 {
+    font-size: small;
+    background-color: rgba(0, 0, 0, 0.959);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#CD2 {
+    font-size: small;
+    background-color: rgba(0, 255, 42, 0.959);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.btn-group {
+    display: none;
+}
+
+
+/*Controlar o menu mobile*/
+
+@media screen and (max-width: 767px) and (min-width: 0px) {
+    #Categoria {
+        display: none;
+    }
+    .card {
+        min-width: 50px;
+    }
+    #Categorias {
+        display: none;
+    }
+    #btnPesquisa {
+        display: none;
+    }
+    #txtPesquisa {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 0px) {
+    .btn-group {
+        display: inline;
+    }
+}
