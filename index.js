@@ -1,4 +1,4 @@
-const API_KEY = 'ed6e8af8fe56488db837f4071ea31697';
+const API_KEY = '';
 let h = document.getElementById("TN");
 
 onload = () => {
